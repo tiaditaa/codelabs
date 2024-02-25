@@ -56,7 +56,7 @@ class _ShrineAppState extends State<ShrineApp> {
                 currentCategory: _currentCategory,
                 onCategoryTap: _onCategoryTap,
               ),
-              frontTitle: Text('SHRINE'),
+              frontTitle: Text('Mutia APP'),
               backTitle: Text('MENU'),
             ),
         // TODO: Make currentCategory field take _currentCategory (104)

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shrine/login.dart';
-import 'package:shrine/model/login.dart'; // Import halaman login jika belum
+import 'package:shrine/model/login.dart';
 
 enum Category {
   all,
@@ -40,8 +40,5 @@ void handleCategorySelection(Category category, BuildContext context) {
       MaterialPageRoute(builder: (context) => LoginPage()),
       (Route<dynamic> route) => false,
     );
-  } else {
-    // Implementasi logika untuk kategori lainnya
-    // Misalnya, tampilkan produk yang sesuai dengan kategori yang dipilih
   }
 }

@@ -18,8 +18,8 @@ import 'category_menu_page.dart';
 import 'home.dart';
 import 'login.dart';
 import 'supplemental/cut_corners_border.dart';
-import 'backdrop.dart'; // New code
-import 'model/product.dart'; // New code
+import 'backdrop.dart';
+import 'model/product.dart';
 
 // TODO: Convert ShrineApp to stateful widget (104)
 class ShrineApp extends StatefulWidget {
